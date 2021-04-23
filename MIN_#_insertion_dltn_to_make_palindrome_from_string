@@ -39,5 +39,5 @@ int main()
     int n=m;
     string b = x;
     reverse(b.begin(),b.end());
-    cout<<"min # of dltn to make it palindrome:"<<m-LPS(x,b,m,n);
+    cout<<"min # of insertion/dltn to make it palindrome:"<<m-LPS(x,b,m,n);
 }
